@@ -1,0 +1,52 @@
+* {
+	font-family: serif;
+	font-size: 2.4ex;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	width: 100vh
+}
+
+.inputquote {
+	background: transparent; 
+	border-style: none;
+}
+
+.inputquote:focus {
+	outline-style: none;
+}
+
+.author {
+	color: #999;
+	white-space: nowrap;
+}
+
+.quote {
+
+}
+
+.bubble {
+	width: 100%;
+	border-style: double;
+	border-color: #999
+	border-radius: .5ex;
+	top: 100px;
+	padding: .5ex;
+	padding-top: 2ex;
+	padding-right: 5ex;
+	background: #fff; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#999, #fff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#999, #fff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#999, #fff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#999, #fff); /* Standard syntax */
+
+}
+
+.button {
+	position: relative;
+}
+.button input {
+	position: absolute;
+	right: -25px;
+	top: -50px}
